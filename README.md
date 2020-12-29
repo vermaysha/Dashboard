@@ -7,6 +7,7 @@ Untuk instalasi silahkan jalankan command dibawah ini
 4. `composer install`
 5. `php -r "file_exists('.env') || copy('.env.example', '.env');"`
 6. `php artisan key:generate --ansi`
-7. `php artisan serve`
+7. `php artisan migrate -s`
+8. `php artisan serve`
 
 Selesai
